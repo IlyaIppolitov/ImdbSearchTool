@@ -1,6 +1,6 @@
 import { useState } from "react"
 import FetchFilms from "./FetchFilms"
-import styles from "./OneFilm.module.css"
+import styles from "./index.module.css"
 
 export default function FilmSearch({}) {
     const

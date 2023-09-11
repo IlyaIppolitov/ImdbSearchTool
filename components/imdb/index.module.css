@@ -1,5 +1,19 @@
 
 
+.inp {
+  height: 30px;
+  width: 400px;
+  margin: 15px;
+  border: 1px solid black;
+}
+
 .cent {
   text-align: center;
+}
+
+.btn {
+  height: 35px;
+  width: 100px;
+  font-weight: bold;
+  background-color: aqua;
 }

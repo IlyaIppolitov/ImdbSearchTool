@@ -1,31 +1,13 @@
 .mar {
-  margin: 20px;
-  width: 400px;
   height: 500px;
-  border: 2px solid black;
+  width: 400px;
+  margin: 30px;
+  border: none;
   text-align: center;
 }
 
 .text {
-  font-size: 18px;
+  padding: 12px;
+  font-size: 16px;
   font-weight: bold;
-  padding: 10px;
-}
-
-.inp {
-  width: 400px;
-  margin: 10px;
-  height: 30px;
-  border: 2px solid black;
-}
-
-.cent {
-  text-align: center;
-}
-
-.btn {
-  height: 35px;
-  width: 100px;
-  font-weight: bold;
-  background-color: aqua;
 }
