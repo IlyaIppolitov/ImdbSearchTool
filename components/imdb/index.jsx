@@ -22,9 +22,9 @@ export default function FilmSearch({}) {
         };
     return (
         <>
-            <div className={styles.cent}>
-                <input value={value} className={styles.inp} onInput={evt => setValue(evt.target.value)} />
-                <button className={styles.btn} onClick={onClick}>Поиск</button>
+            <div className={styles.container}>
+                <input value={value} onInput={evt => setValue(evt.target.value)} />
+                <button onClick={onClick}>Поиск</button>
                 <FetchFilms films={films} error={error} />
             </div>
         </>

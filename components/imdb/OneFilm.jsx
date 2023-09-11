@@ -6,7 +6,7 @@ export default function OneFilm({film}) {
   } = film;
   return (
     <>
-      <div className={styles.mar}>
+      <div className={styles.container}>
         <div className={styles.text}>{Title + " " + Year}</div>
         <img src={Poster} />
       </div>

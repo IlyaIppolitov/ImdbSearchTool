@@ -1,17 +1,15 @@
+.container {
+  text-align: center;
+}
 
-
-.inp {
+.container input {
   height: 30px;
   width: 400px;
   margin: 15px;
   border: 1px solid black;
 }
 
-.cent {
-  text-align: center;
-}
-
-.btn {
+.container button {
   height: 35px;
   width: 100px;
   font-weight: bold;
